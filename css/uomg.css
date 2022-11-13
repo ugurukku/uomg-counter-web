@@ -1,0 +1,22 @@
+body{
+    background-image: url('../img/UKKU.jpg');
+    background-size: 90px; 
+    background-repeat: repeat;
+}
+
+.header{
+    color: yellow;
+}
+
+h5{
+    color: tomato;
+}
+
+#dropdown{
+    width: 100px;
+}
+
+#result{
+    text-align: center;
+    color: chartreuse;
+}

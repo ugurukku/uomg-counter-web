@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ortalama hesablama</title>
+    <link rel="icon" href="./img/aze.svg">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/uomg.css">
+</head>
+
+<body>
+    <div class="container d-flex align-items-center justify-content-center bg-dark vh-100">
+
+        <div class="col-md-6">
+
+            <div class="dropdown mb-4">
+                <h5>Fənn sayı:</h5>
+                <select id="dropdown" class="form-control">
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                </select>
+            </div>
+
+            <table class="table table-dark table-hover">
+                <thead>
+                    <td colspan="4" class="header" align="center">
+                        Məlumatları daxil edin
+                    </td>
+                </thead>
+                <tbody class="table-body">
+                </tbody>
+                <tfoot>
+                    <td colspan="4" id="result">
+
+                    </td>
+                </tfoot>
+            </table>
+
+            <div class="d-grid">
+                <button type="button" class="btn btn-warning floating-center" onclick="hesabla()">
+                    Hesabla
+                </button>
+            </div>
+            
+
+        </div>
+
+    </div>
+    <script src="./js/uomg.js"></script>
+</body>
+
+</html>
